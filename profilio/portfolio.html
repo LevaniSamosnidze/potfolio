@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/profilio/styles.css">
+    <title>Emily's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="bar">
+                <li><a class="a" href="/home/index.html">Home</a></li>
+                <li><a class="a" href="/profilio/portfolio.html">Portfolio</a></li>
+                <li><a class="a" href="/about/about.html">About</a></li>
+                <li><a class="a" href="/contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="tvn1">
+            <div id="img"></div>
+            <div id="user_txt">
+                <button id="username_btn">username</button>
+                <p class="input_user_name"></p>
+                <p id="eror"></p>
+            </div>
+        </section>
+    </header>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio">
+        <h1 class="h1">My Portfolio</h1>
+        <div id="portfolio-filters">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="design">Design</button>
+            <button class="filter-button" data-filter="illustration">Illustration</button>
+            <button class="filter-button" data-filter="branding">Branding</button>
+        </div>
+        <div class="portfolio-container">
+            <div class="portfolio-item design">
+                <h2 class="portfolio-title">Project Title 1</h2>
+                <p class="portfolio-description">A brief description of Project 1. This project showcases my skills in design.</p>
+                <a href="#" class="portfolio-link">View Project</a>
+            </div>
+            <div class="portfolio-item illustration">
+                <h2 class="portfolio-title">Project Title 2</h2>
+                <p class="portfolio-description">A brief description of Project 2. This project showcases my skills in illustration.</p>
+                <a href="#" class="portfolio-link">View Project</a>
+            </div>
+            <div class="portfolio-item branding">
+                <h2 class="portfolio-title">Project Title 3</h2>
+                <p class="portfolio-description">A brief description of Project 3. This project showcases my skills in branding.</p>
+                <a href="#" class="portfolio-link">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <script src="/profilio/scr.js" defer></script>
+</body>
+</html>

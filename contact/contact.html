@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contact/const.css">
+    <title>Contact Emily Smith</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="bar">
+                <li><a class="a" href="/home/index.html">Home</a></li>
+                <li><a class="a" href="/profilio/portfolio.html">Portfolio</a></li>
+                <li><a class="a" href="/about/about.html">About</a></li>
+                <li><a class="a" href="/contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="tvn1">
+            <div id="img"></div>
+            <div id="user_txt">
+                <button id="username_btn">username</button>
+                <p class="input_user_name"></p>
+                <p id="eror"></p>
+            </div>
+        </section>
+    </header>
+
+    <!-- CONTACT FORM SECTION -->
+    <main>
+        <section id="contact-section">
+            <h1 class="h1">Contact Emily</h1>
+            <p class="p">Feel free to get in touch with Emily for inquiries or collaborations!</p>
+            <form id="contact-form">
+                <p id="error_p"></p>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+                <button type="submit" class="btn btn1">Send Message</button>
+            </form>
+            <p id="confirmation" class="p"></p>
+        </section>
+        <div id="map"></div>
+        <section id="new_tbla">
+            <h1 id="history">history</h1>
+            <div id="table">
+                <table id="tbl" border="">
+                    <tr id="tr">
+                        <th id="user_name">Name</th>
+                        <th id="user_email">Email</th>
+                        <th id="user_subject">Subject</th>
+                        <th id="user_message">Message</th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="/contact/constacts.js" defer></script>
+</body>
+</html>
